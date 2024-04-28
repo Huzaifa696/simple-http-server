@@ -35,7 +35,7 @@ This will update the note by appending updates from a newline.
 
 This will read the note and returns its description.
 
-### Read a note
+### Delete a note
 
 ```curl --header "Content-Type: application/json"   --request DELETE   --data '{"title":"note"}'   http://127.0.0.1:8080/delete```
 
